@@ -53,3 +53,7 @@ docker-compose run --rm rar unrar help
 ```sh
 docker-compose run --rm rar chown 1000:1000 -R /app_root/shared
 ```
+もしくは
+```sh
+scripts/fixown.sh
+```
