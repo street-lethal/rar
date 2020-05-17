@@ -41,7 +41,15 @@ docker-compose run --rm rar rar help
 ## 解凍
 ### 基本
 ```sh
-docker-compose run --rm rar unrar e [オプション] shared/<アーカイブファイル名>
+docker-compose run --rm rar unrar e [オプション] shared/<アーカイブファイル名> shared/
+```
+#### 例 (sharedディレクトリ内にある .rar ファイルをすべて解凍)
+```sh
+docker-compose run --rm rar unrar e shared/*.rar shared/
+```
+もしくは
+```sh
+scripts/unrar.sh
 ```
 
 ### ヘルプを表示
