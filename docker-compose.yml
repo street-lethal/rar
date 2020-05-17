@@ -6,4 +6,3 @@ services:
     working_dir: /app_root
     volumes:
       - ./shared:/app_root/shared
-    command: /bin/sh -c "tail -f /var/log/alternatives.log"
