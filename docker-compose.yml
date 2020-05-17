@@ -7,4 +7,4 @@ services:
     volumes:
       - ./zipped:/app_root/zipped
       - ./unzipped:/app_root/unzipped
-      - ./scripts/internal:/app_root/scripts
+      - ./scripts/internal:/app_root/scripts/internal
