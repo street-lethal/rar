@@ -5,4 +5,6 @@ services:
     build: .
     working_dir: /app_root
     volumes:
-      - ./shared:/app_root/shared
+      - ./zipped:/app_root/zipped
+      - ./unzipped:/app_root/unzipped
+      - ./scripts/internal:/app_root/scripts/internal
