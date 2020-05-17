@@ -15,7 +15,7 @@ docker-compose run --rm rar scripts/internal/zip_each.sh [オプション]
 ```
 もしくは
 ```sh
-./scripts/zip_each.sh
+./scripts/zip_each.sh [オプション]
 ```
 
 ### 複数のファイルを圧縮してアーカイブする(1つの all.rar ファイルにまとめる)場合
@@ -24,7 +24,7 @@ docker-compose run --rm rar scripts/internal/zip_and_archive.sh [オプション
 ```
 もしくは
 ```sh
-./scripts/zip_and_archive.sh
+./scripts/zip_and_archive.sh [オプション]
 ```
 
 ### オプション例
@@ -49,7 +49,7 @@ docker-compose run --rm rar scripts/internal/unzip.sh [オプション]
 ```
 もしくは
 ```sh
-./scripts/unzip.sh
+./scripts/unzip.sh [オプション]
 ```
 
 ### 分割されているファイルを解凍する場合
@@ -58,10 +58,10 @@ docker-compose run --rm rar scripts/internal/unzip_merge.sh [オプション]
 ```
 もしくは
 ```sh
-./scripts/unzip_merge.sh
+./scripts/unzip_merge.sh [オプション]
 ```
 
-### 他のオプションを見る場合はヘルプを参照
+### オプションを見る場合はヘルプを参照
 ```sh
 docker-compose run --rm rar unrar help
 ```
